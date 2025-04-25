@@ -1,0 +1,111 @@
+header ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #0867bb;
+    padding: 10px 15%;
+}
+html body{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #fff;
+}
+header ul li a{
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+}
+.img-banner{
+    object-fit: cover;
+    display: grid;
+    image-orientation: initial;
+}
+.container{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+.container div img{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+.card{
+    position: relative;
+    display: inline-block;
+    margin: 5px;
+}
+.card img{
+    display: block;
+    width: 100px;
+    height: auto;
+}
+.caption{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    text-align: center;
+    color: #fff;
+}
+.close{
+    text-decoration: none;
+    text-align: center;
+    color: #0867bb;
+}
+.connect{
+    text-decoration: none;
+    color: #0867bb;
+    text-align: center;
+}
+.win{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0px;
+}
+.win img{
+    display: inline;
+    width: 60%;
+    height: 200px;
+    border: 35%;
+    border-radius: 100%;
+    padding: 50px 20%;
+    margin: 0px;
+    position: relative;
+    background-color: #0867bb;
+}
+.fin{
+    background-color: #0867bb;
+    padding: 10px 5%;
+    grid-template-columns: 1fr 1fr;
+}
+.cal{
+    text-align: right;
+}
+.nop{
+    text-align: right;
+}
+.cal{
+    color: #fff;
+}
+.riv{
+    color: #fff;
+}
+a{
+    color: aqua;
+}
+.on:hover{
+    transform: 1.2;
+    transition: 1.2;
+}
+.win b{
+    color: #0867bb;
+}

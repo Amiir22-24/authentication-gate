@@ -109,3 +109,11 @@ a{
 .win b{
     color: #0867bb;
 }
+@media(max-width:720px){
+    .container{
+        grid-template-columns: 1px;
+    }
+    .win{
+        grid-template-columns: 1fr 1fr;
+    }
+}
